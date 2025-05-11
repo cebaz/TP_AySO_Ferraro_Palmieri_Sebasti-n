@@ -1,0 +1,64 @@
+git clone git@github.com:cebaz/TP_AySO_Ferraro_Palmieri_Sebasti-n.git
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+git clone git@github.com:cebaz/TP_AySO_Ferraro_Palmieri_Sebasti-n.git
+dir
+cd repogit/
+dir
+cd ..
+cd TP_AySO_Ferraro_Palmieri_Sebasti-n/
+dir
+cat datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+cat datos_usuario.txt 
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+cat datos_usuario.txt 
+cd ..
+cd TP_AySO_Ferraro_Palmieri_Sebasti-n/
+cat datos_usuario.txt 
+git add datos_usuarios.txt
+git commit -m "feat: Añadiendo información de CPU"
+cat datos_usuario.txt 
+ls -l datos_usuarios.txt
+grep "model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+cat datos_usuario.txt
+cat datos_usuarios.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+dir
+rm datos_usuarios.txt
+ls
+dir
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+git config --global user.email seba.ferraro123456789@gmail.com
+git config --global user.name cebaz
+git commit -m "feat: Añadiendo información de CPU"
+git status
+cat <<EOF >> README.md  
+Alumno: Sebastián Ferraro Palmieri
+División: 211
+Turno: tarde 
+EOF
+
+cat README.md 
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario" 
+git push
+cd
+mkdir -p $HOME/materia1/uni{1,2,3} $HOME/materia2/uni{1,2,3}
+tree $HOME
+ls -R $HOME
+sudo apt update
+sudo apt install tree
+tree $HOME
+cd TP_AySO_Ferraro_Palmieri_Sebasti-n/
+nano script_dir.sh
+ls
+chmod +x script_dir.sh
+ls -l
+git add . 
+git commit -m "ADD: Añadiendo script" 
+git push
+history -a
